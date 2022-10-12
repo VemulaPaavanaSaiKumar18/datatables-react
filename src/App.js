@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import { Showtable } from "./components/Showtable";
+import { Tabledata } from "./components/Tabledata";
 
 function App() {
+  // let data = [
+  //   {
+  //     name: "Tiger Nixon",
+  //     position: "System Architect",
+  //     salary: "$3,120",
+  //     start_date: "2011/04/25",
+  //     office: "Edinburgh",
+  //     extn: "5421",
+  //   },
+  //   {
+  //     name: "Garrett Winters",
+  //     position: "Director",
+  //     salary: "$5,300",
+  //     start_date: "2011/07/25",
+  //     office: "Edinburgh",
+  //     extn: "8422",
+  //   },
+  // ];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Showtable item = {data} /> */}
+      <Tabledata />
     </div>
   );
 }
